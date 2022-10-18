@@ -1,0 +1,51 @@
+{
+	"room_homepage": {
+		"title": "RoomHomepage",
+    "bg-color": "#938271",
+    "images": [
+      "./assets/images/Room--homepage.png"
+    ]
+	},
+	"space_xperience": {
+		"title": "Space Xperience",
+    "bg-color": "#284567",
+    "images": [
+      "./assets/images/SpaceEx--HomePage.png"
+    ]
+	},
+	"buildings": {
+		"title": "Buildings",
+    "bg-color": "#E69171",
+    "images": [
+      "./assets/images/Buildings--content.png"
+    ]
+	},
+	"cherry_blossom": {
+		"title": "Cherry Blossom",
+    "bg-color": "#FDF5F0",
+    "images": [
+      "./assets/images/cherryBlossom.png"
+    ]
+	},
+	"jade_ed": {
+		"title": "jadeEd",
+    "bg-color": "#44D4B0",
+    "images": [
+      "./assets/images/jadeEd--Home.png"
+    ]
+	},
+	"gallery": {
+		"title": "Gallery",
+    "bg-color": "#F9CC6A",
+    "images": [
+      "./assets/images/Gallery.png"
+    ]
+	},
+	"text_reveal": {
+		"title": "Text reveal",
+    "bg-color": "#F9F4E3",
+    "images": [
+      "./assets/images/TextReveal--home.png"
+    ]
+	}
+}

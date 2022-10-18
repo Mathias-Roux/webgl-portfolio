@@ -1,0 +1,202 @@
+{
+	"room_homepage": {
+		"hero": {
+			"title": [
+				"RoomHomepage",
+				"Made by rouxMathias"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"description": "Homepage made from a frontend mentor challenge",
+        "link": "https://github.com/Mathias-Roux/room__homepage",
+        "date": "2022"
+			}
+		},
+    "previews": {
+      "images": null,
+      "videos": [
+        "./assets/videos/Room--HomePage_desktop.mp4",
+        "./assets/videos/Room--HomePage_mobile.mp4"
+      ]
+    }
+	},
+  "space_xperience": {
+    "hero": {
+			"title": [
+				"Space Xperience",
+				"Made by rouxMathias"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"description": "Website made from a frontend mentor challenge",
+        "link": "https://github.com/Mathias-Roux/space_xperience",
+        "date": "2022"
+			}
+		},
+    "previews": {
+      "images": [
+        "./assets/images/SpaceEx--HomePage_mobile.png",
+        "./assets/images/SpaceEx--Destinations.png",
+        "./assets/images/SpaceEx--Destination_mobile.png",
+        "./assets/images/SpaceEx--Crew.png",
+        "./assets/images/SpaceEx--Crew_mobile.png",
+        "./assets/images/SpaceEx--Technology.png",
+        "./assets/images/SpaceEx--Menu_mobile.png"
+      ],
+      "videos": null
+    }
+	},
+	"buildings": {
+    "hero": {
+			"title": [
+				"Buildings",
+				"Made by rouxMathias"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"description": "A landing page animated with gsap and a custom cursor",
+        "link": "https://github.com/Mathias-Roux/grid_buildings_gsap",
+        "date": "2022"
+			}
+		},
+    "previews": {
+      "images": null,
+      "videos": [
+        "./assets/videos/Buildings.mp4",
+        "./assets/videos/Buildings--Navigation.mp4"
+      ]
+    }
+	},
+	"cherry_blossom": {
+    "hero": {
+			"title": [
+				"Cherry Blossom",
+				"Made by rouxMathias"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"description": "An homepage on sakura trees theme",
+        "link": "https://github.com/Mathias-Roux/cherry-blossom",
+        "date": "2022"
+			}
+		},
+    "previews": {
+      "images": null,
+      "videos": [
+        "./assets/videos/CherryBlossom--mobile.mp4"
+      ]
+    }
+	},
+	"jade_ed": {
+    "hero": {
+			"title": [
+				"jadeEd",
+				"Made by rouxMathias"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"description": "A React application on jade jewelry. Build with home, products, about and contact pages",
+        "link": "https://github.com/Mathias-Roux/jadeEd--react",
+        "date": "2022"
+			}
+		},
+    "previews": {
+      "images": [
+      "./assets/images/jadeEd--Products.png",
+      "./assets/images/jadeEd--About.png",
+      "./assets/images/jadeEd--Contact.png"
+    ],
+      "videos": [
+      "./assets/videos/jadeEd--Home.mp4",
+      "./assets/videos/jadeEd--Products.mp4"
+    ]
+    }
+	},
+	"gallery": {
+    "hero": {
+			"title": [
+				"Gallery",
+				"Made by rouxMathias"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"description": "A landing page with a title changing according to the hovered photo",
+        "link": "https://github.com/Mathias-Roux/loaderPage--imagessloaded",
+        "date": "2022"
+			}
+		},
+    "previews": {
+      "images": null,
+      "videos": null
+    }
+	},
+	"text_reveal": {
+    "hero": {
+			"title": [
+				"Text reveal",
+				"Made by rouxMathias"
+			],
+			"details": {
+				"title": "Technologies used",
+				"technos": [
+					"React",
+					"ParcelJs"
+				]
+			},
+			"infos": {
+				"title": "Informations",
+				"description": "A landing page with change switching content",
+        "link": "https://github.com/Mathias-Roux/parcel-gsap",
+        "date": "2022"
+			}
+		},
+    "previews": {
+      "images": null,
+      "videos": [
+        "./assets/videos/Text-reveal.mp4"
+      ]
+    }
+	}
+}

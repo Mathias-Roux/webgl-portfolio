@@ -1,0 +1,35 @@
+{
+  "name": "v2portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "build": "npm run clear && npm run javascript && npm run static",
+    "javascript": "npx rollup -c",
+    "static": "rsync -rm src/static dist",
+    "clear": "rm -rf dist/*",
+    "postcss:watch": "postcss src/static/style.css --dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathias-Roux/v2portfolio.git"
+  },
+  "keywords": [],
+  "author": "rouxMathias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathias-Roux/v2portfolio/issues"
+  },
+  "homepage": "https://github.com/Mathias-Roux/v2portfolio#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "gsap": "^3.11.1",
+    "postcss-csso": "^6.0.1",
+    "postcss-preset-env": "^7.8.2",
+    "rollup": "^2.79.0",
+    "rollup-plugin-glsl": "^1.3.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "three": "^0.144.0"
+  }
+}
