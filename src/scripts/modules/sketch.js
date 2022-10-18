@@ -16,24 +16,29 @@ export default class Sketch {
     this.renderer.setPixelRatio(window.devicePixelRatio)
     this.container.appendChild(this.renderer.domElement)
 
-    this.time = 0
     this.resize()
     this.addObjects()
     this.render()
     this.setupResize()
+    this.materials = []
+    this.meshes = []
     this.handleImages()
   }
 
   handleImages(){
     let images = [...document.querySelectorAll('.images')]
-    images.forEach(img => {
+    const loader = new THREE.TextureLoader();
+    images.forEach((img,i) => {
       let mat = this.material.clone()
-      mat.uniforms.texture1.value = new THREE.Texture(img)
-      mat.uniforms.texture1.value.needsUpdate = true
+      this.materials.push(mat)
+      let texture = loader.load(img.src);
+      mat.uniforms.texture1.value = texture;
 
-      let geo = new THREE.PlaneBufferGeometry(1.5,1,20,20)
+
+      let geo = new THREE.PlaneGeometry(1.5,1,20,20)
       let mesh = new THREE.Mesh(geo,mat)
       this.scene.add(mesh)
+      this.meshes.push(mesh)
       mesh.position.y = i*1.2
     })
   }
@@ -69,7 +74,7 @@ export default class Sketch {
       fragmentShader: fragment
     })
 
-    this.geometry = new THREE.PlaneGeometry(1,1,1,1)
+    // this.geometry = new THREE.PlaneGeometry(1,1,1,1)
   }
 
   render() {

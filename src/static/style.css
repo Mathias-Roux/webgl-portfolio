@@ -36,7 +36,7 @@ body{
   display: none;
 } */
 
-#banner {
+#container__banner {
   position: absolute;
   top: 5%;
   left: 10%;
@@ -48,34 +48,34 @@ body{
   visibility: hidden;
 }
 
-#content__home{
+#container__home{
   opacity: 1;
   visibility: visible;
   z-index: 1;
 }
 
-.items{
-  background-color: red;
+.container__home-items{
   position: absolute;
   top: 30%;
   right: 0;
+  display: none;
 }
 
-#item{
+/* #item{
   height: 194px;
   width: clamp(900px, 20vw, 1500px);
   display: flex;
 	position: relative;
-}
+} */
 
-.item__left{
+/* .item__left{
   display: grid;
   place-items: end center;
   padding: 10px 0;
   min-width: 20%;
-}
+} */
 
-.placeholder{
+/* .placeholder{
   position: absolute;
   width: 675px;
   height: 173px;
@@ -86,24 +86,26 @@ body{
   overflow: hidden;
   margin: 10px;
   cursor: pointer;
-}
+} */
 
 .images{
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  transform-origin: 50%;
-  transform: scale(0.25);
+  opacity: 1;
+  width: 675px;
+  height: 173px;
+  /* transition: opacity 0.3s ease; */
+  /* transform-origin: 50%; */
+  /* transform: scale(0.25); */
 }
 
-.enlarged {
+/* .enlarged {
   position: fixed;
   top: -105px;
   left: -715px;
   width: 720px;
   height: 346px;
-}
+} */
 
-#content__inside {
+/* #content__inside {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -111,10 +113,10 @@ body{
   left: 0;
   display: flex;
   z-index: -1;
-}
+} */
 
 
-#previews{
+/* #previews{
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -122,9 +124,9 @@ body{
   position: absolute;
   top: 54%;
   left: 0;
-}
+} */
 
-#previews > video,
+/* #previews > video,
 #previews > img{
   opacity: 0;
   visibility: hidden;
@@ -132,21 +134,21 @@ body{
   width: 720px;
   height: 346px;
   margin-bottom: 40px;
-}
+} */
 
-#hero{
+/* #hero{
   width: 50%;
-}
+} */
 
-.hero__inner{
+/* .hero__inner{
   position: fixed;
   top: 45%;
   left: 65%;
-}
+} */
 
-.hero__inner > .title,
+/* .hero__inner > .title,
 .hero__inner> .details,
 .hero__inner > .infos{
   opacity: 0;
   visibility: hidden;
-}
+} */
